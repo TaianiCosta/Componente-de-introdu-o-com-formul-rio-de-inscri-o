@@ -2,43 +2,50 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="style.css" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Intro component with sign up form</title>
+  <title>Frontend Mentor | 3-Componentes de Cartões</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
 
 </head>
+
 <body>
-  <div class="texto">
-    <h1>Aprenda a codificar observando os outros</h1>
+  <main>
+    <div class="cartao">
+      <div class="sedan">
+        <img src="./images/icon-sedans.svg">
+        <h1>SEDAN</h1>
+        <p>Escolha um sedan por sua acessibilidade e excelente economia de combustível. Ideal para passear na cidade ou na sua próxima viagem.</p>
+        <button>Leia mais</button>
+      </div>
+      
+      <div class="suvs">
+        <img src="./images/icon-suvs.svg">
+        <h1>SUVS</h1>
+        <p>Considere um SUV por seu interior espaçoso, potência e versatilidade. Perfeito para suas próximas férias em família e aventuras off-road.</p>
+        <button>Leia mais</button>
+      </div>
 
-    <p>Veja como desenvolvedores experientes resolvem problemas em tempo real. Assistir a tutoriais com script é ótimo, mas entender como os desenvolvedores pensam é inestimável.</p>
-  </div>
-  <button class="valor">Experimente grátis por 7 dias e depois R$ 20/mês. a seguir</button>
-  
-  <form>
-    <div class="formulario">
-      <button class="nome"> Nome </button> 
-      <button class="sobrenome"> Sobrenome </button> 
-      <button class="email"> Endereço de e-mail </button> 
-      <button class="senha"> Senha </button> 
+      <div class="luxo">
+        <img src="./images/icon-luxury.svg">
+        <h1>LUXO</h1>
+        <p>Viaje nas melhores marcas de carros sem os preços inflacionados. Aproveite o conforto aprimorado de um aluguel de luxo e chegue com estilo.</p>
+        <button>Leia mais</button>
+      </div>
     </div>
-    
-    <button class="assine"> Solicite sua avaliação gratuita </button>
 
-    <div>Ao clicar no botão, você concorda com nossos</div><div class="serviço"> Termos e Serviços</div>
-  </form>
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Taiani Costa</a>.
-    </p>
+    
+  </main>
+
+    <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="https://www.frontendmentor.io/profile/TaianiCosta">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/TaianiCosta" target="https://github.com/TaianiCosta">Taiani Costa</a>.
+    </div>
   </footer>
 </body>
 </html>
