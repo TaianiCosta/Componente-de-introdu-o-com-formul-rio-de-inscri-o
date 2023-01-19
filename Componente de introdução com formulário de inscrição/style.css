@@ -1,110 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@300&family=Overpass:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 body {
-    width: 1300px;
-    height: 900px;
+  background-color: hsl(0, 100%, 74%);
+  background-image: url(./images/bg-intro-desktop.png);
+  font-family: 'Poppins', sans-serif;
+  width: 100vw;
+  height: 100vh;
 }
 
-.cartao {
-    color: hsl(0, 0%, 100%, 0.75);
-    display: flex;
-    margin: 100px 325px 50px 325px;
-    width: 650px;
-    height: 400px; 
+.texto {
+  color: hsl(360, 0%, 100%);
+  font-size: 16px;
+  text-align: left;
+}
+
+.valor {
+  background-color: hsl(248, 32%, 49%);
+  color: hsl(360, 0%, 100%);
+  margin-left: 50%;
+  margin-right: 15%;
+  padding: 12px 6px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+form {
+  background-color: hsl(360, 0%, 100%);
+  margin-left: 50%;
+  margin-right: 15%;
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+
+.formulario {
+  color: hsl(249, 10%, 26%);
+  background-color: hsl(360, 0%, 100%);
+  display: grid;
+}
+
+.campo {
+  padding: 12px 20px;
+  border-radius: 5px;
+}
+
+.assine {
+  background-color: hsl(154, 59%, 51%);
+  color: hsl(360, 0%, 100%);
+  border-radius: 5px;
+  padding: 12px 20px;
 }
 
 div {
-    display: inline-block;
-    margin-left: -4px;
+  color: hsl(246, 25%, 77%);
+  font-size: 11px;
 }
 
-h1 {
-    color: hsl(0, 0%, 100%, 0.75);
-    margin: 20px auto 0 30px;
-    font-family: 'Big Shoulders Display', sans-serif;
-}
-
-p {
-    color: hsl(0, 0%, 95%);
-    text-align: left;
-    margin-bottom: 30px;
-    padding: 10px 30px 20px 30px;
-    font-size: 10px;
-    font-family: 'Lexend Deca', sans-serif;
-    line-height: 1.8;
-}
-
-img {
-    margin: 50px auto auto 30px;
-}
-
-.sedan {
-    background-color: hsl(31, 77%, 52%);
-    border-radius: 10px 0 0 10px;
-}
-
-.sedan button {
-    background-color: hsl(31, 77%, 52%);
-}
-
-.sedan button:hover {
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(31, 77%, 52%);
-    transition: 0.4s;
-}
-
-.suvs {
-    background-color: hsl(184, 100%, 22%);   
-}
-
-.suvs button {
-    background-color: hsl(184, 100%, 22%);
-}
-
-.suvs button:hover {
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(184, 100%, 22%);
-    transition: 0.4s;
-}
-
-.luxo {
-    background-color: hsl(179, 100%, 13%); 
-    border-radius: 0 10px 10px 0;  
-}
-
-.luxo button{
-    background-color: hsl(179, 100%, 13%);
-}
-
-.luxo button:hover {
-    background-color: hsl(0, 0%, 95%);
-    color: hsl(179, 100%, 13%);
-    transition: 0.4s;
-}
-
-button {
-    margin-left: 20px;
-    border-color: hsl(0, 0%, 95%);
-    color: hsl(0, 0%, 95%);
-    border-radius: 20px;
-    width: 125px;
-    height: 40px;
-    cursor: pointer;    
-}
-
-footer {
-    text-align: center;
+.serviço {
+  color: hsl(0, 100%, 74%);
 }
 
 .attribution { 
-    font-size: 11px;  
-    color: hsla(0, 0%, 2%, 0.959);
-    font-family: 'Lexend Deca', sans-serif;
+  font-size: 11px; 
+  text-align: center;
+  background-color: hsl(360, 0%, 100%);
 }
 
 .attribution a { 
-    color: hsl(327, 88%, 50%); 
-    text-decoration: none;
+  color: hsl(327, 88%, 50%); 
+  text-decoration: none;
 }
