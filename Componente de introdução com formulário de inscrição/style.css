@@ -1,17 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
 
+html,
 body {
   background-color: hsl(0, 100%, 74%);
   background-image: url(./images/bg-intro-desktop.png);
   font-family: 'Poppins', sans-serif;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteiner {
+  display: flex;
+  max-width: 700px;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .texto {
   color: hsl(360, 0%, 100%);
   font-size: 16px;
-  text-align: left;
 }
 
 .valor {
@@ -22,6 +37,7 @@ body {
   padding: 12px 6px;
   border-radius: 10px;
   margin-bottom: 20px;
+  width: 33vw;
 }
 
 form {
@@ -30,6 +46,7 @@ form {
   margin-right: 15%;
   padding: 20px 20px;
   border-radius: 10px;
+  width: 30vw;
 }
 
 .formulario {
@@ -48,11 +65,12 @@ form {
   color: hsl(360, 0%, 100%);
   border-radius: 5px;
   padding: 12px 20px;
+  width: 30vw;
 }
 
 div {
   color: hsl(246, 25%, 77%);
-  font-size: 11px;
+  font-size: 9px;
 }
 
 .serviço {
