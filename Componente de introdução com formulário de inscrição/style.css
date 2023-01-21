@@ -47,6 +47,7 @@ form {
   padding: 20px 20px;
   border-radius: 10px;
   width: 30vw;
+  height: 350px;
 }
 
 .formulario {
@@ -66,11 +67,14 @@ form {
   border-radius: 5px;
   padding: 12px 20px;
   width: 30vw;
+  cursor: pointer;
+  margin: 10px 0;
 }
 
 div {
   color: hsl(246, 25%, 77%);
   font-size: 9px;
+  text-align: center;
 }
 
 .serviço {

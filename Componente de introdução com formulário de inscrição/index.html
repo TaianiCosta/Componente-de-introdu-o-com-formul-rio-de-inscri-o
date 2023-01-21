@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-
+  <script type="text/javascript" src="text.js"></script>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="style.css" rel="stylesheet">
 
-  
   <title>Frontend Mentor | Componente de Introdução com Formolário de Inscrição</title>
 
 </head>
@@ -22,12 +21,12 @@
     <button class="valor">Experimente grátis por 7 dias e depois R$ 20/mês. a seguir</button>
     
     <form>
-      <script type="text/javascript" src="text.js"></script>
+      
       <div class="formulario">
-        <input class="campo" placeholder="Nome" type="text"><br>
-        <input class="campo" placeholder="Sobrenome" type="text"><br>
-        <input class="campo" placeholder="E-mail" type="password"><br>
-        <input class="campo" placeholder="Senha" type="text"><br>
+        <input id="nome" class="campo" placeholder="Nome" type="text" onKeyPress="valida_digitos('nome')" onBlur="valida_campos('nome')"><br>
+        <input id="sobrenome" class="campo" placeholder="Sobrenome" type="text" onKeyPress="valida_digitos('sobrenome')" onBlur="valida_campos('sobrenome')"><br>
+        <input id="email" class="campo" placeholder="E-mail" type="email"><br>
+        <input id="senha" class="campo" placeholder="Senha" type="password"><br>
       </div>
 
       <input class="assine" type="submit" value="Solicite sua avaliação gratuita">
@@ -35,7 +34,7 @@
       <div>
         <p>Ao clicar no botão, você concorda com nossos <span class="serviço">Termos e Serviços</span></p>
       </div>
-      </script>
+
     </form>
   </div>
 </div>
