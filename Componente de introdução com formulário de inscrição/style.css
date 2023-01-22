@@ -17,16 +17,17 @@ body {
 
 .conteiner {
   display: flex;
-  max-width: 700px;
   flex: 1;
   align-items: center;
   justify-content: center;
-  margin: 0 auto;
+  margin: 0 150px;
+  max-width: 700px;
 }
 
 .texto {
   color: hsl(360, 0%, 100%);
   font-size: 16px;
+  text-align: left;
 }
 
 .valor {
