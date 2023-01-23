@@ -20,21 +20,18 @@ body {
   flex: 1;
   align-items: center;
   justify-content: center;
-  margin: 0 150px;
-  max-width: 700px;
 }
 
 .texto {
   color: hsl(360, 0%, 100%);
   font-size: 16px;
   text-align: left;
+  margin-left: 5%;
 }
 
 .valor {
   background-color: hsl(248, 32%, 49%);
   color: hsl(360, 0%, 100%);
-  margin-left: 50%;
-  margin-right: 15%;
   padding: 12px 6px;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -43,8 +40,6 @@ body {
 
 form {
   background-color: hsl(360, 0%, 100%);
-  margin-left: 50%;
-  margin-right: 15%;
   padding: 20px 20px;
   border-radius: 10px;
   width: 30vw;
